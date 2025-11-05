@@ -1,0 +1,18 @@
+{
+    "unit_name": "Lightning Storm",
+    "display_name": "!LOC:Lightning Storm",
+    "si_name":"blank_blip",
+    "description": "!LOC: Creates a lightning storm in the targeted location dealing damage over time",
+    "base_spec": "/pa/units/heroes/abilities/ability_base.json",
+    "add_to_spatial_db": false,
+    "build_metal_cost": 40,
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Land",
+        "UNITTYPE_Custom41"
+    ],
+    "command_caps": [
+        "ORDER_FireSecondaryWeapon",
+        "ORDER_Attack"
+      ]
+}

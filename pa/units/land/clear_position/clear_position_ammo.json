@@ -1,0 +1,10 @@
+{
+  "ammo_type": "PBAOE",
+  "damage": 30000,
+  "damage_volume": {
+    "initial_radius": 3.0
+  },
+  "sim_fire_effect": "/pa/units/land/bot_bomb/bot_bomb_ammo_explosion_ent.json",
+  "splash_damages_allies": true,
+  "splash_radius": 3
+}

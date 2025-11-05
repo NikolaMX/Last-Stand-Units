@@ -1,0 +1,132 @@
+{
+    "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+    "display_name": "Orbital Fabrication Bot",
+    "localised_display_name": "!LOC:Orbital Fabrication Bot",
+    "description": "!LOC:Orbital Fabricator - Builds orbital satellites and spaceships.",
+    "max_health": 500000,
+    "build_metal_cost": 500000,
+    "system_velocity_multiplier": 1000.0,
+    "gravwell_velocity_multiplier": 100.0,
+    "si_name": "blank_blip",
+    
+    "buildable_types": "Structure & Basic | Structure & Advanced | FabBuild | FabAdvBuild | FabOrbBuild | Titan | NoBuild",
+    "unit_types": [
+        "UNITTYPE_Air",
+        "UNITTYPE_Fabber",
+        "UNITTYPE_NoBuild",
+        "UNITTYPE_Mobile"
+     
+  
+    ],
+    "command_caps": [
+        
+        "ORDER_Build",
+        "ORDER_Reclaim",
+        "ORDER_Repair",
+        "ORDER_Attack",
+        "ORDER_Move"
+    ],
+    "guard_layer": "WL_AnySurface",
+    "navigation": {
+        "type": "air",
+        "inter_planetary_type": "system",
+    
+        "acceleration": 800,
+        "brake": 80,
+        "move_speed": 7500,
+        "turn_speed": 1200,
+        "bank_factor": 10,
+        "vertical_speed": 1
+    },
+      "physics": {
+    "add_to_spatial_db": false,
+	"radius":0.05
+  },
+    "recon": {
+        "observer": {
+            "items": [
+                {
+                    "layer": "surface_and_air",
+                    "channel": "radar",
+                    "shape": "capsule",
+                    "radius": 0
+                },
+                {
+                    "layer": "orbital",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 0
+                },
+                {
+                    "layer": "underwater",
+                    "channel": "sight",
+                    "shape": "capsule",
+                    "radius": 0
+                },
+                {
+                    "channel": "sight",
+                    "layer": "celestial",
+                    "radius": 1,
+                    "shape": "sphere"
+                }
+            ]
+        }
+    },
+    "model": {
+        "filename": "/pa/units/commanders/scenario_avatar/empty_unit.papa"
+        
+    },
+    "tools": [
+        {
+            "spec_id": "/pa/units/commanders/scenario_avatar/scenario_avatar_build_arm.json",
+            "aim_bone": "bone_root"
+        }
+       
+    ],
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/fab_orbital"
+        },
+        "died": {
+            "audio_cue": "/SE/Death/orbital"
+        }
+    },
+    "audio": {
+        "loops": {
+            "build": {
+                "cue": "/SE/Construction/Fab_contruction_beam_loop_orbital",
+                "flag": "build_target_changed",
+                "should_start_func": "has_build_target",
+                "should_stop_func": "no_build_target"
+            },
+            "move": {
+                "cue": "/SE/Movement/air/fab_air_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        }
+    },
+    "fx_offsets": [
+        {
+            "type": "build",
+            "filename": "/pa/effects/specs/fab_spray.pfx",
+            "bone": "bone_root",
+            "offset": [
+                1.755,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                -90
+            ]
+        }
+    ],
+    "selection_icon": {
+        "diameter": 32.0
+    },
+   
+    "TEMP_texelinfo": 7.54279
+}

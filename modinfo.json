@@ -1,0 +1,35 @@
+{
+    "context": "server",
+    "identifier": "com.pa.ferretmaster.last-stand-units",
+    "display_name": "Last Stand Units",
+    "description": "Adds units for the last stand overhaul",
+    "author": "Ferretmaster, BillTheBlueBot, Anonemous2, Taiga",
+    "version": "1.0",
+    "build": "116982",
+    "date": "2023-11-16",
+    "signature": "not yet implemented",
+    "forum": "",
+    "icon": "",
+    "priority": 100,
+    "category": [
+        "titans", "in-game","server"
+        
+    ],
+    
+    "scenes": {
+		
+		"icon_atlas": [
+			"coui://ui/mods/scenario.server/icon_atlas.js"
+		],
+		"shared_build":[
+			"coui://ui/mods/scenario.server/shared_build.js"
+		],
+        "load_planet": [
+            "coui://ui/mods/scenario.server/maps.js"
+        ]
+		
+	},
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems"
+    ]
+}

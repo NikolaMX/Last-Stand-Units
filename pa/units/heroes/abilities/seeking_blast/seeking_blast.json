@@ -1,0 +1,18 @@
+{
+    "unit_name": "Seeking Blast",
+    "display_name": "!LOC:Seeking Blast",
+    "si_name":"blank_blip",
+    "description": "!LOC: Spawns several seeking projectiles that target the nearest enemies",
+    "base_spec": "/pa/units/heroes/abilities/ability_base.json",
+    "add_to_spatial_db": false,
+    "build_metal_cost": 30,
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Land",
+        "UNITTYPE_Custom41"
+    ],
+    "command_caps": [
+        "ORDER_FireSecondaryWeapon",
+        "ORDER_Attack"
+      ]
+}

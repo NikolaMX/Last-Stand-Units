@@ -1,0 +1,114 @@
+{
+    "display_name": "Stryker",
+    "description": "!LOC:Attack Vehicle - Fast, adaptable, expendable. Attacks surface targets.",
+    "TEMP_texelinfo": 6.12932,
+    "si_name":"attack_vehicle",
+    "attachable": {
+      "offsets": {
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "head": [
+          0,
+          1,
+          4.1
+        ]
+      }
+    },
+    "audio": {
+      "loops": {
+        "move": {
+          "cue": "/SE/Movement/veh/attack_vehicle_loop",
+          "flag": "vel_changed",
+          "should_start_func": "is_moving",
+          "should_stop_func": "is_not_moving"
+        }
+      },
+      "selection_response": {
+        "cue": "/SE/Selection/veh/attack_vehicle"
+      }
+    },
+    "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+    "build_metal_cost": 55,
+    "events": {
+      "build_complete": {
+        "audio_cue": "/SE/Build_Complete/veh"
+      },
+      "fired": {
+        "audio_cue": "/SE/Weapons/veh/attack_vehicle_fire",
+        "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle01 /pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle02"
+      },
+      "died": {
+        "audio_cue": "/SE/Death/Veh",
+        "effect_scale": 1.0
+      }
+    },
+    "guard_layer": "WL_AnySurface",
+    "max_health": 300,
+    "mesh_bounds": [
+      3.8,
+      5,
+      3.5
+    ],
+    "model": {
+      "filename": "/pa/units/land/attack_vehicle/attack_vehicle.papa",
+      "animations": {
+        "run": "/pa/units/land/attack_vehicle/attack_vehicle_anim_run.papa"
+      },
+      "walk_speed": 12,
+      "animtree": "/pa/anim/anim_trees/attack_vehicle_anim_tree.json"
+    },
+    "navigation": {
+      "type": "land-small",
+      "acceleration": 150,
+      "brake": 150,
+      "move_speed": 24,
+      "turn_speed": 180
+    },
+    "physics": {
+      "radius": 3.5
+    },
+    "guard_radius": 5000,
+    "recon": {
+      "observer": {
+        "items": [
+          {
+            "layer": "surface_and_air",
+            "channel": "sight",
+            "shape": "capsule",
+            "radius": 1100
+          }
+        ]
+      }
+    },
+    "selection_icon": {
+      "diameter": 10.0
+    },
+    "tools": [
+      {
+        "spec_id": "/pa/units/minions/basic_ranged/basic_ranged_weapon.json",
+        "aim_bone": "bone_pivot",
+        "projectiles_per_fire": 2,
+        "muzzle_bone": [
+          "socket_muzzle01",
+          "socket_muzzle02"
+        ]
+      }
+    ],
+    "transportable": {
+      "size": 1
+    },
+    "unit_types": [
+      "UNITTYPE_Custom57",
+      "UNITTYPE_Tank",
+      "UNITTYPE_Vehicle",
+      "UNITTYPE_Mobile",
+      "UNITTYPE_Land",
+      "UNITTYPE_Basic",
+      "UNITTYPE_FactoryBuild",
+      "UNITTYPE_CannonBuildable",
+      "UNITTYPE_Offense"
+    ]
+  }

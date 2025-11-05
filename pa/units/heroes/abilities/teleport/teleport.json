@@ -1,0 +1,16 @@
+{
+    "unit_name": "Teleport",
+    "display_name": "!LOC:Teleport",
+    "si_name":"blank_blip",
+    "description": "!LOC: Teleport",
+    "base_spec": "/pa/units/heroes/abilities/ability_base.json",
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Land",
+        "UNITTYPE_Custom41"
+    ],
+    "command_caps": [
+        "ORDER_FireSecondaryWeapon",
+        "ORDER_Attack"
+      ]
+}

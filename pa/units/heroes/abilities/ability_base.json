@@ -1,0 +1,71 @@
+{
+    "unit_name": "base ability",
+    "display_name": "!LOC:Base ability Unit",
+    "si_name":"blank_blip",
+    "description": "!LOC: Base Ability Unit",
+    "armor_type": "AT_Vehicle",
+    "max_health": 8000,
+    "build_metal_cost": 500,
+    "wreckage_health_frac": 0.0,
+    "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+    "area_build_separation": 2000.0,
+    "area_max_radius": 150.0,
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Land"
+    ],
+    "command_caps": [
+        "ORDER_FireSecondaryWeapon",
+        "ORDER_Attack"
+      ],
+    "physics": {
+        "type": "Structure",
+        "add_to_spatial_db": false,
+        "shape": "Box",
+        "radius": 1,
+        "allow_pushing": false,
+        "push_sideways": false,
+        "allow_underground": false
+    },
+    "placement_size": [
+        1,
+        1
+      ],
+      "mesh_bounds": [
+        1,
+        1,
+        1
+      ],
+      "recon": {
+        "observer": {
+          "items": [
+            {
+              "layer": "surface_and_air",
+              "channel": "sight",
+              "shape": "capsule",
+              "radius": 0
+            },
+            {
+              "layer": "underwater",
+              "channel": "sight",
+              "shape": "capsule",
+              "radius": 0
+            }
+          ]
+        }
+      },
+  
+    "model": {
+      "filename": "/pa/units/commanders/scenario_avatar/empty_unit.papa"
+    },
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/barrier"
+        }
+    },
+    "selection_icon": {
+        "diameter": 7.0
+    },
+   
+    "TEMP_texelinfo": 2.37699
+}

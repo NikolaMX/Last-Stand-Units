@@ -1,0 +1,22 @@
+{
+    "ammo_type": "PBAOE",
+    
+    "burn_damage": 200,
+    "burn_radius": 3000,
+    "damage": 3003000,
+    "damage_volume": {
+      "initial_radius": 20.0,
+      "radius_velocity": 100.0,
+      "radius_accel": 10.0,
+      "delay": 1.5,
+      "burnable_remove_radius": 100.0
+    },
+    "full_damage_splash_radius": 125,
+    "impact_decals": [
+      "/pa/effects/specs/nuke_scorch_01.json"
+    ],
+    "sim_fire_effect": "/pa/units/land/nuke_launcher/nuke_launcher_ammo_explosion_ent.json",
+    "splash_damage": 330000,
+    "splash_damages_allies": false,
+    "splash_radius": 3000
+  }

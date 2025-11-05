@@ -1,0 +1,18 @@
+{
+    "unit_name": "Summon Angel",
+    "display_name": "!LOC:Summon Angel",
+    "si_name":"blank_blip",
+    "description": "!LOC: summons an angel to protect the area, loses life over time",
+    "base_spec": "/pa/units/heroes/abilities/ability_base.json",
+    "add_to_spatial_db": false,
+    "build_metal_cost": 100,
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Land",
+        "UNITTYPE_Custom42"
+    ],
+    "command_caps": [
+        "ORDER_FireSecondaryWeapon",
+        "ORDER_Attack"
+      ]
+}

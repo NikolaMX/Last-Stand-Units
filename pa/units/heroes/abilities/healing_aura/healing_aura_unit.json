@@ -1,0 +1,46 @@
+{
+    "unit_name": "Global Heal",
+    "display_name": "!LOC:Global Heal",
+    "si_name":"blank_blip",
+    "description": "!LOC: adds hp regeneration to heroes on the map",
+    "armor_type": "AT_Vehicle",
+    "base_spec": "/pa/units/heroes/abilities/ability_base.json",
+    "physics": {
+      "add_to_spatial_db": false,
+      "radius":0.05
+    },
+    "max_health": 10000,
+    "passive_health_regen": -1000,
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Land"
+    ],
+    "command_caps": [
+        "ORDER_FireSecondaryWeapon",
+        "ORDER_Attack"
+      ],
+      "fx_offsets": [
+        {
+            "type": "idle",
+            "filename": "/pa/units/heroes/abilities/healing_aura/healing_aura.pfx",
+            "bone": "bone_root",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "orientation": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+      "tools": [
+        {
+          "spec_id": "/pa/units/land/global_heal/global_heal_weapon.json",
+          "aim_bone": "bone_root",
+          "muzzle_bone": "bone_root"
+        }
+      ]
+}

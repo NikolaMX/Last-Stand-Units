@@ -1,0 +1,34 @@
+{
+    "unit_name": "Smite",
+    "display_name": "!LOC:Smite",
+    "si_name":"blank_blip",
+    "description": "!LOC: adds hp regeneration to heroes on the map",
+    "armor_type": "AT_Vehicle",
+    "events": {
+     
+        "fired": {
+          "effect_spec": "/pa/units/heroes/abilities/smite/smite.pfx bone_root"
+        }
+      },
+    "base_spec": "/pa/units/heroes/abilities/ability_base.json",
+    "physics": {
+      "add_to_spatial_db": false,
+      "radius":0.05
+    },
+    "max_health": 8000,
+    "unit_types": [
+        "UNITTYPE_Structure",
+        "UNITTYPE_Land"
+    ],
+    "command_caps": [
+        "ORDER_FireSecondaryWeapon",
+        "ORDER_Attack"
+      ],
+      "tools": [
+        {
+          "spec_id": "/pa/units/heroes/abilities/smite/smite_weapon.json",
+          "aim_bone": "bone_root",
+          "muzzle_bone": "bone_root"
+        }
+      ]
+}
