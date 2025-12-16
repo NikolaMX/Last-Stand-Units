@@ -1,4 +1,5 @@
 {
+    "base_spec": "/pa/ammo/base_magic/base_magic.json",
     "ammo_type": "Projectile",
     "spawn_layers": "WL_Air",
     "audio_loop": "/SE/Weapons/commander/Commander_uber_cannon_fire",
@@ -33,10 +34,6 @@
     "max_velocity": 130.0,
     "burn_damage": 200,
     "burn_radius": 15,
-    "armor_damage_map": {
-        "AT_Structure": 0.25,
-        "AT_Commander": 0.25
-    },
     "recon": {
         "observable": {
             "ignore_radar": true

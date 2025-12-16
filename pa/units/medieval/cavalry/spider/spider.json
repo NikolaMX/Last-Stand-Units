@@ -41,7 +41,7 @@
         "type": "amphibious",
         "acceleration": 400,
         "brake": -1,
-        "move_speed": 10,
+        "move_speed": 20.5,
         "turn_speed": 240
     },
     "physics": {
