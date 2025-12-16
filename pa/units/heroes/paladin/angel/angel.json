@@ -3,7 +3,7 @@
     "description": "!LOC:A summoned angel, medium aggro distance and loses health over time.",
     "TEMP_texelinfo": 10.4837,
     "si_name":"angel",
-    "armor_type": "AT_Custom1",
+    "armor_type": "AT_Commander",
     "attachable": {
       "offsets": {
         "root": [

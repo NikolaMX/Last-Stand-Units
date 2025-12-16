@@ -43,6 +43,41 @@
 		"/pa/units/commanders/scenario_avatar/scenario_avatar.json",
 
 
+
+
+
+        "/pa/units/medieval/infantry/sword_light/sword_light.json",
+        "/pa/units/medieval/infantry/shield/shield.json",
+
+
+        "/pa/units/medieval/infantry/longbow/longbow.json",
+        "/pa/units/medieval/infantry/crossbow/crossbow.json",
+
+
+        "/pa/units/medieval/infantry/guardian/guardian.json",
+
+        "/pa/units/medieval/cavalry/jumping_spider/jumping_spider.json",
+        
+        "/pa/units/medieval/cavalry/big_spider/big_spider.json",
+        "/pa/units/medieval/cavalry/spider/spider.json",
+
+
+        "/pa/units/medieval/cavalry/goliath/goliath.json",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         "/pa/units/air/air_factory/air_factory.json",
         "/pa/units/air/air_factory_adv/air_factory_adv.json",
         "/pa/units/air/air_scout/air_scout.json",
