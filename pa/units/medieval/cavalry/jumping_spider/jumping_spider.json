@@ -66,6 +66,12 @@
     "walk_speed": 6
   },
   "navigation": {
+    "aggressive_distance": 5,
+    "aggressive_behavior": "circle",
+    "circle_min_time": 1.0,
+    "circle_max_time": 2.0,
+    "hover_time": -1.0,
+    "bank_factor": 1,
     "acceleration": 80,
     "brake": -1,
     "group_preference": "back",
@@ -79,6 +85,7 @@
   "selection_icon": {
     "diameter": 15
   },
+  "attack_range_frac": 0.05,
   "tools": [
     
     {
@@ -93,6 +100,7 @@
       "aim_bone": "bone_turret",
       "muzzle_bone": "socket_left_muzzle",
       "primary_weapon": false,
+      "secondary_weapon": true,
       "show_range": false
     }
   ],
@@ -111,7 +119,7 @@
       ]
     }
   },
-  "attack_range_frac": 0.5,
+  
   "audio": {
     "loops": {
       "move": {

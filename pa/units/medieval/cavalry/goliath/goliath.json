@@ -37,7 +37,7 @@
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     }
   },
-  "attack_range_frac": 0.5,
+  "attack_range_frac": 0.1,
   "tools": [
     {
       "spec_id": "/pa/units/medieval/cavalry/goliath/goliath_tool_weapon.json",

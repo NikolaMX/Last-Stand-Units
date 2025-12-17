@@ -39,7 +39,7 @@
     "type": "land-small",
     "acceleration": 50,
     "brake": -1,
-    "move_speed": 20.5,
+    "move_speed": 25.5,
     "turn_speed": 360
   },
   "physics": {
@@ -61,15 +61,15 @@
   "model": {
     "filename": "/pa/units/medieval/infantry/sword_light/sword_light.papa",
     "animations": {
-      "death": "/pa/units/medieval/infantry/axe_dox/axe_dox_anim_dead.papa",
+      "death": "/pa/units/medieval/infantry/sword_light/sword_light_anim_dead.papa",
       "walk": "/pa/units/medieval/infantry/sword_light/sword_light_anim_run.papa",
-      "idle": "/pa/units/medieval/infantry/dual_sword/assault_bot_anim_idle.papa",
+      "idle": "/pa/units/medieval/infantry/sword_light/sword_light_anim_idle.papa",
       "firing": "/pa/units/medieval/infantry/sword_light/sword_light_anim_stab.papa"
     },
-    "animtree": "/pa/units/medieval/infantry/sword_dox/bipedal_mech_anim_tree.json",
+    "animtree": "/pa/units/medieval/infantry/sword_light/bipedal_mech_anim_tree.json",
     "walk_speed": 20
   },
-  "attack_range_frac": 0.5,
+  "attack_range_frac": 0.1,
   "tools": [
     {
       "spec_id": "/pa/units/medieval/infantry/sword_light/sword_light_tool_weapon.json",

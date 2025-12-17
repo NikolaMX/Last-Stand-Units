@@ -4,7 +4,7 @@
     "AT_Custom1": 1,
     "AT_Custom2": 1
    },
-  "damage": 40,
+  "damage": 80,
   "splash_damage": 0,
   "splash_radius": 0,
   "initial_velocity": 130.0,

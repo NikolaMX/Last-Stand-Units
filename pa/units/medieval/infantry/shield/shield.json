@@ -2,7 +2,7 @@
   "display_name": "!LOC:Shield bearer",
   "description": "!LOC:Shielded. Slow and very durable, takes half damage from most long ranged attacks.",
   "TEMP_texelinfo": 20.8258,
-  "max_health": 120,
+  "max_health": 240,
   "build_metal_cost": 100,
   "armor_type": "AT_Custom3",
   "wreckage_health_frac": 1,
@@ -78,7 +78,7 @@
   "selection_icon": {
     "diameter": 8
   },
-  "attack_range_frac": 0.5,
+  "attack_range_frac": 0.1,
   "tools": [
     {
       "aim_bone": "bone_turret",
