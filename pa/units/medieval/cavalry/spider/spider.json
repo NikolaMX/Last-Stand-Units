@@ -5,7 +5,7 @@
     "armor_type": "AT_Bot",
     "max_health": 80,
     "build_metal_cost": 150,
-    "wreckage_health_frac": 0.0,
+    "wreckage_health_frac": 1.0,
     "spawn_layers": "WL_LandHorizontal",
     "attachable": {
         "offsets": {
