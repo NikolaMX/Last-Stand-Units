@@ -4,7 +4,23 @@ var paeiouIcons = [
     "blank_blip",
 	"wizard",
 	"paladin",
-	"angel"	
+	"angel",
+
+
+	"sword_light",
+	"shield",
+	"longbow",
+	"crossbow",
+
+	"guardian",
+	"jumping_spider",
+	"jumping_spider_ammo_jump",
+	"big_spider",
+	"spider",
+
+	"goliath"
+	
+	
 
 ];
 model.strategicIcons(model.strategicIcons().concat(paeiouIcons));

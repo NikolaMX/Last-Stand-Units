@@ -1,7 +1,7 @@
 {
     "display_name": "Paladin",
     "description": "!LOC:Paladin - A close range melee fighter with mid range support options.",
-    "armor_type": "AT_Custom1",
+    "armor_type": "AT_Commander",
     "si_name":"paladin",
     "attachable": {
       "offsets": {
@@ -83,7 +83,7 @@
         "bone": "bone_spine"
       }
     ],
-    "max_health": 20000,
+    "max_health": 6000,
     "mesh_bounds": [
       12.6,
       8.71255,
