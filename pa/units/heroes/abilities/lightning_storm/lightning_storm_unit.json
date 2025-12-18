@@ -28,7 +28,7 @@
       "fx_offsets": [
         {
             "type": "idle",
-            "filename": "/pa/units/heroes/abilities/lightning_storm/storm.pfx",
+            "filename": "/pa/units/heroes/abilities/lightning_storm/necro_aura.pfx",
             "bone": "bone_root",
             "offset": [
                 0,
