@@ -3,7 +3,7 @@
     "display_name": "Spider",
     "description": "!LOC:Spider. Can detect traps and invisible enemies. Ranged.",
     "armor_type": "AT_Bot",
-    "max_health": 80,
+    "max_health": 160,
     "build_metal_cost": 150,
     "wreckage_health_frac": 1.0,
     "spawn_layers": "WL_LandHorizontal",
