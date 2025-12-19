@@ -1,6 +1,6 @@
 {
   "si_name": "sword_light",
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_medieval.json",
   "display_name": "Swordsman",
   "description": "!LOC:Unarmoured. The most basic infantry unit.",
   "max_health": 100,
