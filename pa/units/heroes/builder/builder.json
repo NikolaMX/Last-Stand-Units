@@ -116,7 +116,13 @@
                 "socket_rightMuzzle",
                 "socket_rightMuzzle"
             ]
-        }
+        },
+         {
+      "spec_id": "/pa/units/heroes/builder/builder_grenade_tool_weapon.json",
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_rightMuzzle",
+      "secondary_weapon": true
+    }
   ],
   "transportable": {
     "size": 1
@@ -140,12 +146,13 @@
     "ORDER_Reclaim",
     "ORDER_Repair",
     "ORDER_Assist",
-    "ORDER_Use"
+    "ORDER_Use",
+    "ORDER_FireSecondaryWeapon"
   ],
    "events": {
     
     "fired": {
-      "audio_cue": "/SE/Weapons/bot/assault_fire",
+      "audio_cue": "/SE/Weapons/bot/grenadier_fire",
       "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_rightMuzzle"
     }
   },

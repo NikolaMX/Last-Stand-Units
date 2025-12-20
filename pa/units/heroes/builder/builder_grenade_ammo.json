@@ -1,0 +1,43 @@
+{
+  "base_spec": "/pa/ammo/base_bullet/base_bullet.json",
+  "damage": 500,
+  "splash_damages_allies": true,
+  "splash_damage": 500,
+  "splash_radius": 25,
+  "full_damage_splash_radius": 10,
+
+
+  "armor_damage_map": {
+    
+    "AT_Hover": 1000.0
+    
+  },
+  "fx_trail": {
+    "filename": "/pa/units/heroes/builder/fireball2.pfx",
+    "offset": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "initial_velocity": 25.0,
+  "lifetime": 10.0,
+  "min_velocity": 25.0,
+  "max_velocity": 300.0,
+  "model": {
+    "filename": ""
+  },
+  
+  "events": {
+    "died": {
+      "audio_cue": "/SE/Impacts/shell_bullet",
+      "effect_spec": "/pa/units/heroes/builder/fireball_hit.pfx"
+    },
+    "physics": {
+    "radius": 2,
+    "gravity_scalar": 6,
+    "add_to_spatial_db": false,
+    "allow_underground": true
+  }
+  }
+}
