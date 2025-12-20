@@ -27,6 +27,11 @@
         "/pa/units/heroes/abilities/healing_aura/healing_aura_unit.json",
         "/pa/units/heroes/abilities/summon_angel/summon_angel.json",
 
+
+        "/pa/units/heroes/abilities/ballista/ballista_unit.json",
+        "/pa/units/heroes/abilities/ballista/ballista.json",
+
+
         "/pa/units/land/temp_vision_small/temp_vision_small.json",
         "/pa/units/land/global_heal/global_heal.json",
         "/pa/units/land/power_drain/power_drain_10.json",

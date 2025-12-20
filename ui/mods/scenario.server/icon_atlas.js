@@ -8,6 +8,9 @@ var paeiouIcons = [
 	"angel",
 
 
+
+	"ballista",
+
 	"sword_light",
 	"shield",
 	"longbow",
