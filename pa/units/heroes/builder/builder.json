@@ -142,6 +142,7 @@
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
+    "ORDER_Attack",
     "ORDER_Build",
     "ORDER_Reclaim",
     "ORDER_Repair",
