@@ -4,6 +4,7 @@ var paeiouIcons = [
     "blank_blip",
 	"wizard",
 	"paladin",
+	"builder",
 	"angel",
 
 

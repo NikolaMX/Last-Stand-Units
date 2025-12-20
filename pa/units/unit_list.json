@@ -11,6 +11,8 @@
         "/pa/units/heroes/wizard/wizard_revive.json",
         "/pa/units/heroes/paladin/paladin.json",
         "/pa/units/heroes/paladin/paladin_revive.json",
+        "/pa/units/heroes/builder/builder.json",
+        "/pa/units/heroes/builder_revive/builder_revive.json",
 
         "/pa/units/heroes/abilities/ability_base.json",
         "/pa/units/heroes/abilities/teleport/teleport.json",
