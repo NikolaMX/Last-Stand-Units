@@ -59,6 +59,7 @@
         "/pa/units/medieval/infantry/guardian/guardian.json",
 
         "/pa/units/medieval/cavalry/jumping_spider/jumping_spider.json",
+        "/pa/units/medieval/cavalry/jumping_spider/mele/jumping_spider.json",
         
         "/pa/units/medieval/cavalry/big_spider/big_spider.json",
         "/pa/units/medieval/cavalry/spider/spider.json",

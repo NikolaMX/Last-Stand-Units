@@ -38,9 +38,8 @@
       "ORDER_Move",
       "ORDER_Patrol",
       "ORDER_Assist",
-      "ORDER_Repair",
-      "ORDER_Assist",
-      "ORDER_Reclaim"
+      "ORDER_Attack"
+      
     ],
     "events": {
       "build_complete": {
@@ -123,7 +122,7 @@
         "bone": "bone_root"
       }
     ],
-    "max_health": 10000,
+    "max_health": 5000,
     "passive_health_regen": -100,
     "guard_radius": 200,
     "guard_layer":"WL_AnySurface",

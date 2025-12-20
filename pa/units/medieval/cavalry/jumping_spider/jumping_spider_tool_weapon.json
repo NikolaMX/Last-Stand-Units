@@ -13,7 +13,7 @@
     "pitch_rate": 360,
     "arc_type": "ARC_Low",
     "rate_of_fire": 0.5,
-    "fire_delay": 0.566,
+    "fire_delay": 0.4,
     "target_layers": [
       "WL_LandHorizontal",
       "WL_WaterSurface"
