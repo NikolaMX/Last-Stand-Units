@@ -99,7 +99,7 @@
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom8"
+    "Unittype_Custom57"
   ],
    "death": {
     "decals": [
