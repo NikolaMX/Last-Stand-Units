@@ -3,7 +3,7 @@
     "ammo_id": [
         {
             "layer": "WL_AnyLand",
-            "id": "/pa/units/land/assault_bot_adv/assault_bot_adv_ammo.json"
+            "id": "/pa/units/heroes/builder/builder_ammo.json"
         }
     ],
     "rate_of_fire": 0.5,
