@@ -1,12 +1,12 @@
 {
   "display_name": "!LOC:Web Mother",
   "description": "!LOC:Spider. Spawns 7 spiders every 60s.",
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_medieval.json",
   "armor_type": "AT_Bot",
   "wreckage_health_frac": 1.0,
   "spawn_layers": "WL_LandHorizontal",
   "unit_types": [
-    "UNITTYPE_Custom10",
+    "Unittype_Custom57",
     "UNITTYPE_Tank",
     "UNITTYPE_Tactical",
     "UNITTYPE_Mobile",

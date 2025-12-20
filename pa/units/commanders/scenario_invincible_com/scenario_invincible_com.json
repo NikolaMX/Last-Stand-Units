@@ -21,6 +21,9 @@
           ]
        }
     },
+    "selection_icon": {
+    "diameter": 0.000001
+  },
     "model": {
         "filename": "/pa/units/commanders/scenario_avatar/empty_unit.papa"
         
@@ -53,7 +56,7 @@
   
     "UNITTYPE_Fabber",
     "UNITTYPE_NoBuild",
-    "UNITTYPE_Mobile",
+    "UNITTYPE_Structure",
     "UNITTYPE_Commander"
  
 

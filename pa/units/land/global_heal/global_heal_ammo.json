@@ -26,8 +26,8 @@
         "radius_accel": -25.0,
         "radius_velocity": 140.0
       },
-    "damage": 100,
-    "splash_damage":100,
+    "damage": 25,
+    "splash_damage":25,
     "full_damage_splash_radius": 1000,
     "splash_damages_allies": true,
     "splash_radius": 1000

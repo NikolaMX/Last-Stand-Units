@@ -36,7 +36,7 @@
         "cue": "/SE/Selection/bot/sub_commander"
       }
     },
-    "base_spec": "/pa/units/land/base_bot/base_bot.json",
+    "base_spec": "/pa/units/land/base_bot/base_medieval.json",
     "build_metal_cost": 6000,
     "buildable_types": "Custom41",
     "command_caps": [
@@ -54,7 +54,7 @@
     "events": {
       "fired": {
         "audio_cue": "/SE/Weapons/bot/sub_commander_gun_fire_laser",
-        "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
+        "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx muzzle_staff"
       },
       "died": {
         "audio_cue": "/SE/Death/Bot",
@@ -84,14 +84,14 @@
       "metal": 100
     },
     "model": {
-      "filename": "/pa/units/commanders/imperial_sub/imperial_sub.papa",
+      "filename": "/pa/units/heroes/wizard/wizard.papa",
       "animations": {
-        "walk": "/pa/units/commanders/imperial_base/imperial_base_anim_walk.papa",
-        "idle": "/pa/units/commanders/imperial_base/imperial_base_anim_idle.papa",
-        "walk_stop": "/pa/units/commanders/imperial_base/imperial_base_anim_walkStop.papa",
-        "aim_up": "/pa/units/commanders/imperial_base/imperial_base_anim_aimUp.papa",
-        "aim_down": "/pa/units/commanders/imperial_base/imperial_base_anim_aimDown.papa"
-      },
+            "walk": "/pa/units/heroes/wizard/wizard_anim_walk.papa",
+            "idle": "/pa/units/heroes/wizard/wizard_anim_idle.papa",
+            "walk_stop": "/pa/units/heroes/wizard/wizard_anim_walkStop.papa",
+            "aim_up": "/pa/units/commanders/imperial_base/imperial_base_anim_aimUp.papa",
+            "aim_down": "/pa/units/commanders/imperial_base/imperial_base_anim_aimDown.papa"
+        },
       "animtree": "/pa/anim/anim_trees/commander_imperial_anim_tree.json",
       "walk_speed": 7.0
     },
@@ -152,13 +152,13 @@
       {
         "spec_id": "/pa/units/heroes/wizard/wizard_primary.json",
         "aim_bone": "bone_turret",
-        "muzzle_bone": "socket_rightMuzzle",
+        "muzzle_bone": "muzzle_staff",
         "primary_weapon": true
       },
       {
         "spec_id": "/pa/units/heroes/wizard/wizard_alt_weapon.json",
         "aim_bone": "bone_turret",
-        "muzzle_bone": "socket_rightMuzzle",
+        "muzzle_bone": "muzzle_staff",
         "secondary_weapon": true
       }
     ],

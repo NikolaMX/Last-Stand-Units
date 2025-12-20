@@ -1,6 +1,6 @@
 {
   "si_name":"longbow",
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_medieval.json",
   "display_name": "Longbow Archer",
   "description": "!LOC:Unarmoured. Slow. Very long range. Needs time to aim.",
 
@@ -22,7 +22,7 @@
     }
   },
   "unit_types": [
-    "UNITTYPE_Custom10",
+    "Unittype_Custom57",
     "UNITTYPE_Artillery",
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",

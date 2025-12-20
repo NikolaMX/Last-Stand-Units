@@ -1,5 +1,15 @@
 {
-    "base_spec": "/pa/units/commanders/base_commander/base_commander_ammo.json",
+  "base_spec": "/pa/ammo/base_magic/base_magic.json",
+  "flight_type": "Seeking",
+  "damage": 80,
+  "splash_damage": 0,
+  "splash_radius": 0,
+  "full_damage_splash_radius": 0,
+  "initial_velocity": 80,
+  "max_velocity": 80,
+  "turn_rate": 90,
+  "lifetime": 3,
+    
     "model": {
         "filename": ""
     },
@@ -14,6 +24,17 @@
         "spawned": {
             "audio_cue": "/SE/Weapons/commander/Commander_gun_fire_laser"
         }
+    },
+"physics": {
+        "radius": 1,
+        "gravity_scalar": 5,
+        "ignore_gravity": true,
+        "add_to_spatial_db": true
     }
+
+    
+ 
+
+
 }
 

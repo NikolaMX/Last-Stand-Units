@@ -1,6 +1,6 @@
 {
   "si_name":"crossbow",
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_medieval.json",
   "display_name": "Crossbow",
   "description": "!LOC:Medium Armour. Double damage against all Armoured. Medium range.",
   "max_health": 85,
@@ -21,7 +21,7 @@
     }
   },
   "unit_types": [
-    "UNITTYPE_Custom9",
+    "Unittype_Custom57",
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
     "UNITTYPE_Offense",

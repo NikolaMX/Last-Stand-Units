@@ -1,6 +1,6 @@
 {
   "si_name": "goliath",
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_medieval.json",
   "display_name": "Goliath",
   "description": "Beast. Extremly durable. Devastating damage. Ignores Armour",
   "armor_type": "AT_Custom6",
@@ -129,7 +129,7 @@
     "size": 1
   },
    "unit_types": [
-    "UNITTYPE_Custom8",
+    "Unittype_Custom57",
 
     "UNITTYPE_Tank",
     "UNITTYPE_Fighter",
