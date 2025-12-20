@@ -6,8 +6,8 @@
       "AT_Orbital": 0.0
     },
     "burn_damage": 200,
-    "burn_radius": 70,
-    "damage": 1000,
+    "burn_radius": 40,
+    "damage": 200,
     "damage_volume": {
       "delay": 0,
       "initial_radius": 15,
@@ -21,7 +21,7 @@
     },
     "sim_fire_effect": "/pa/units/heroes/paladin/paladin_explosion_ent.json",
     "full_damage_splash_radius": 30,
-    "splash_damage": 400,
+    "splash_damage": 200,
     "splash_damages_allies": false,
-    "splash_radius": 55
+    "splash_radius": 40
   }
