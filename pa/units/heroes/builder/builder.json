@@ -150,6 +150,7 @@
     "ORDER_Use",
     "ORDER_FireSecondaryWeapon"
   ],
+  "spawn_unit_on_death": "/pa/units/heroes/builder/builder_revive.json",
    "events": {
     
     "fired": {
