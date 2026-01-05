@@ -1,8 +1,8 @@
 {
-  "unit_name": "Ballista",
-  "display_name": "!LOC:Ballista",
+  "unit_name": "Mine",
+  "display_name": "!LOC:Land Mine",
   "si_name":"blank_blip",
-  "description": "!LOC: Spawns a Ballista structure",
+  "description": "!LOC: Place a Land Mine. Needs time to arm. Does devastating damage.",
   "base_spec": "/pa/units/heroes/abilities/ability_base.json",
   "add_to_spatial_db": false,
   "build_metal_cost": 40,

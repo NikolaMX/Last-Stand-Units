@@ -8,7 +8,10 @@ var newBuildScenario = {
     "/pa/units/heroes/abilities/summon_angel/summon_angel.json":["paladin_abilities", 0, { row: 2, column: 2 }],
 
 
-    "/pa/units/heroes/abilities/ballista/ballista.json":["engineer_abilities", 0, { row: 2, column: 2 }]
+    "/pa/units/heroes/abilities/ballista/ballista.json":["engineer_abilities", 0, { row: 2, column: 0 }],
+    "/pa/units/heroes/abilities/mine/mine.json":["engineer_abilities", 0, { row: 2, column: 1 }],
+    "/pa/units/heroes/abilities/decoy/decoy.json":["engineer_abilities", 0, { row: 2, column: 2 }],
+    
 }
 if (Build && Build.HotkeyModel && Build.HotkeyModel.SpecIdToGridMap) {
     _.extend(Build.HotkeyModel.SpecIdToGridMap, newBuildScenario);

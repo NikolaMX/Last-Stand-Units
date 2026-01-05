@@ -12,7 +12,7 @@
         "/pa/units/heroes/paladin/paladin.json",
         "/pa/units/heroes/paladin/paladin_revive.json",
         "/pa/units/heroes/builder/builder.json",
-        "/pa/units/heroes/builder_revive/builder_revive.json",
+        "/pa/units/heroes/builder/builder_revive.json",
 
         "/pa/units/heroes/abilities/ability_base.json",
         "/pa/units/heroes/abilities/teleport/teleport.json",
@@ -30,7 +30,11 @@
 
         "/pa/units/heroes/abilities/ballista/ballista_unit.json",
         "/pa/units/heroes/abilities/ballista/ballista.json",
-
+        "/pa/units/heroes/abilities/decoy/decoy_unit.json",
+        "/pa/units/heroes/abilities/decoy/decoy.json",
+        "/pa/units/heroes/abilities/mine/mine_unit.json",
+        "/pa/units/heroes/abilities/mine/mine.json",
+        
 
         "/pa/units/land/temp_vision_small/temp_vision_small.json",
         "/pa/units/land/global_heal/global_heal.json",

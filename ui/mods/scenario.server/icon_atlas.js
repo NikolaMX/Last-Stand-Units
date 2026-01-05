@@ -10,6 +10,8 @@ var paeiouIcons = [
 
 
 	"ballista",
+	"decoy",
+	"mine",
 
 	"sword_light",
 	"shield",

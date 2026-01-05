@@ -1,7 +1,7 @@
 {
-  "si_name": "ballista",
-  "display_name": "!LOC:Ballista",
-  "description": "!LOC:Medium range. Piercing shot.",
+  "si_name": "decoy",
+  "display_name": "!LOC:Decoy",
+  "description": "!LOC:Distracts Enemies. Very durabl.",
   "TEMP_texelinfo": 13,
   "has_death_effects": true,
   "attachable": {
@@ -67,22 +67,6 @@
   "selection_icon": {
     "diameter": 20
   },
-  "tools": [
-    {
-      "aim_bone": "bone_turret",
-      
-      "projectiles_per_fire": 5,
-    
-      "muzzle_bone": [
-        "socket_muzzle",
-        "socket_muzzle1",
-        "socket_muzzle2",
-        "socket_muzzle3",
-        "socket_muzzle4"
-      ],
-      "spec_id": "/pa/units/heroes/abilities/ballista/ballista_tool_weapon.json"
-    }
-  ],
 
 
 
@@ -95,7 +79,7 @@
   "atrophy_rate": 7.5,
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "build_metal_cost": 350,
-  "max_health": 1500,
+  "max_health": 6000,
   "command_caps": [
     "ORDER_Attack"
   ],
@@ -122,8 +106,7 @@
   "model": [
     {
       "layer": "WL_LandHorizontal",
-      "filename": "/pa/units/heroes/abilities/ballista/ballista.papa",
-      "animtree": "/pa/units/heroes/abilities/ballista/defense_turret_anim_tree.json",
+      "filename": "/pa/units/heroes/abilities/decoy/imperial_aceal.papa",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
     }
   ],
@@ -148,7 +131,7 @@
  
   "spawn_layers": "WL_LandHorizontal",
 
-  "unit_name": "Ballista",
+  "unit_name": "Decoy",
   "unit_types": [
     "UNITTYPE_Structure",
         "UNITTYPE_Land"

@@ -5,7 +5,7 @@
   "TEMP_texelinfo": 4.07719,
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "build_metal_cost": 2000,
-  "max_health": 2000,
+  "max_health": 4000,
   "spawn_layers": "WL_LandHorizontal",
   "armor_type": "AT_Custom0",
   "attachable": {
@@ -47,6 +47,7 @@
       "cue": "/SE/Selection/bot/T2_fab"
     }
   },
+  "spawn_unit_on_death": "/pa/units/heroes/builder/builder_revive.json",
   "recon": {
     "observer": {
       "items": [
@@ -138,7 +139,15 @@
     "UNITTYPE_Fabber",
     "UNITTYPE_Construction"
   ],
-  "buildable_types": "(Land & Structure | Factory | Factory & Advanced & Bot & Land | FabBuild) & Custom8",
+  "buildable_types": "Custom43",
+     "production": {
+      "energy": 3,
+      "metal": 0
+    },
+      "storage": {
+      "energy": 0,
+      "metal": 100
+    },
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
